@@ -63,6 +63,9 @@ class _SearchRowState extends ConsumerState<SearchBoxV2> {
               onPressed: () {
                 ref.read(cityProvider.notifier).state = cityEditController.text;
               },
+
+
+              
             ),
             const SizedBox(width: 10),
             Expanded(
